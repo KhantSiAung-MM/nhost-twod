@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+
 
 export default async function handler(req, res) {
   const HASURA_GRAPHQL_URL = process.env.NHOST_GRAPHQL_URL;
