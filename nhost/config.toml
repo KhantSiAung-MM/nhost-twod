@@ -1,1 +1,7 @@
-subgraph = "default"
+[provider]
+[provider.postgres]
+version = "14.6"
+
+[functions]
+node_version = "18"
+
